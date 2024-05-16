@@ -10,3 +10,9 @@ padding: 20px 0;
  margin: 0 auto;
 
 }
+
+nav{
+   positivon: absolute;
+   top: 110px;
+   right: 0;
+}
