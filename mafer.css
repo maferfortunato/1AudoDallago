@@ -1,18 +1,31 @@
 header{
-background: #f107de;
-padding: 20px 0;
-
-}
-
-.caixa{
- position: relative;
- width: 940px;
- margin: 0 auto;
-
-}
-
-nav{
-   positivon: absolute;
-   top: 110px;
-   right: 0;
-}
+   background: #888888; /*cor fundo*/
+   padding: 20px 0;
+   
+   }
+   
+   .caixa{
+   position: relative;
+   width: 940px;
+   margin: 0 auto;
+   
+   }
+   
+   nav{
+       position: absolute;
+       top:110px;
+       right: 0;
+   }
+   
+   nav a{
+       text-transform: uppercase;
+       color: black;
+       font-weight: bold;
+       font-size: 22px;
+       text-decoration: none;
+   }
+   
+   nav a:hover{
+       color: #e20e43;
+       text-decoration: underline;
+   }
